@@ -1,20 +1,21 @@
 // Colour Variables
- $primary-color: #7f02f5;
- $secondary-color: #2c06ea;
- $background-color: #bf0aec;
- $title-color: #f502c4;
- $bonus-color: #00ffee;
+$primary-color: #7f02f5;
+$secondary-color: #2c06ea;
+$background-color: #bf0aec;
+$title-color: #f502c4;
+$bonus-color: #00ffee;
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #00ffee;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #00ffee;
 }
 
 .content {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 20px;
+   text-align: center;
+   background-color: wheat;
 }
