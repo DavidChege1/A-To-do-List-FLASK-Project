@@ -2,13 +2,61 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #00ffee;
+  background-color: mintcream;
 }
 
 .content {
   max-width: 800px;
-  margin: 0 auto;
+  margin: 50px auto;
   padding: 20px;
-  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   background-color: wheat;
+  text-align: left;
+}
+
+h1 {
+  color: #2c06ea;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+table th, table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+table a {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 10px;
+  color: #2c06ea;
+  text-decoration: none;
+  border: 1px solid #2c06ea;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+table input {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 10px;
+  color: #2c06ea;
+  text-decoration: none;
+  border: 1px solid #2c06ea;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+table #btn_add {
+  display: inline-block;
+  background-color: #2c06ea;
+  padding: 5px 10px;
+  margin-right: 10px;
+  color: #2c06ea;
+  text-decoration: none;
 }/*# sourceMappingURL=styles.css.map */
