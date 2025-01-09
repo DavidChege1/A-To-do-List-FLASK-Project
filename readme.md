@@ -8,7 +8,6 @@ A simple and user-friendly To-Do List application built using Flask. This projec
 - Mark tasks as completed.
 - Edit task details.
 - Delete tasks.
-- Filter tasks by status (completed or pending).
 - Simple and responsive user interface.
 
 ## Tech Stack
@@ -29,7 +28,7 @@ Before running the project, ensure you have the following installed:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/flask-todo-app.git
+   git clone https://github.com/DavidChege1/A-To-do-List-FLASK-Project.git
    cd flask-todo-app
    ```
 
